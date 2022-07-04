@@ -7,6 +7,9 @@
     font-size: 1rem;
     font-weight: 300;
 }
+html {
+    overflow: hidden;
+}
 .mySlides img {
     width: 100vw;
     height: 100vh;
@@ -139,7 +142,7 @@ img {vertical-align: middle;}
 .slideshow-container {
   /* max-width: 1000px; */
   position: relative;
-  margin: auto;
+  /* margin: auto; */
 }
 .active {
   background-color: #717171;
@@ -154,11 +157,6 @@ img {vertical-align: middle;}
 @keyframes fade {
   from {opacity: .4} 
   to {opacity: 1}
-}
-
-/* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
-  .text {font-size: 11px}
 }
 
 /* The Modal (background) */
@@ -179,8 +177,8 @@ img {vertical-align: middle;}
 /* Modal Content */
 .modal-content {
     background-color: #fff;
-    margin: -1rem auto;
-    padding: 10px;
+    margin: -3rem auto;
+    padding: 5px;
     border: 2px solid #888;
     width: 50%;
     text-align: center;
